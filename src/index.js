@@ -1,4 +1,4 @@
-export default new class ltJs {
+class ltJs {
   /**
    * 获取浏览器信息
    * @param {string} type
@@ -59,3 +59,5 @@ export default new class ltJs {
     }
   }
 }
+
+export default new ltJs()

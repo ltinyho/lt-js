@@ -2,7 +2,7 @@
   "name": "lt-js",
   "version": "1.0.1",
   "description": "es6 webpack babel es5 ",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack"

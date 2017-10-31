@@ -95,17 +95,16 @@ class ltJs {
       document.title = title
     } else if (isiOS) {
       try {
-        var body       = document.body
-        document.title = title
-
-        var iframe = document.createElement('iframe')
-        iframe.src = ''
-        iframe.addEventListener('load', function () {
-          setTimeout(function () {
-            iframe.parentNode.removeChild(iframe)
-          }, 0)
-        }, false)
-        body.appendChild(iframe)
+        document.title = title;
+        var i = document.createElement('iframe');
+        i.src = 'http://www.kaoyaya.com/white.ico';
+        i.style.display = 'none';
+        i.onload = function() {
+          setTimeout(function(){
+            i.remove();
+          }, 9)
+        }
+        document.body.appendChild(i);
       } catch (e) {
         console.log(e)
       }

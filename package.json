@@ -1,6 +1,6 @@
 {
   "name": "lt-js",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "es6 webpack babel es5 ",
   "main": "dist/index.js",
   "scripts": {

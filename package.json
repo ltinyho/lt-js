@@ -1,7 +1,7 @@
 {
   "name": "lt-js",
-  "version": "1.0.2",
-  "description": "es6 webpack babel es5 ",
+  "version": "1.0.3",
+  "description": "utils function",
   "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

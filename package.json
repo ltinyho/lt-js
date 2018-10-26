@@ -1,6 +1,6 @@
 {
   "name": "lt-js",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "utils function",
   "main": "dist/index.js",
   "scripts": {

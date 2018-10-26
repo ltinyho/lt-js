@@ -12,7 +12,7 @@ class ltJs {
       return userAgent.indexOf('iphone') !== -1;
     case 'ipad':
       return userAgent.indexOf('ipad') !== -1;
-    case 'wexin':
+    case 'weixin':
       return userAgent.indexOf('micromessenger') !== -1;
     default:
       return userAgent;
